@@ -1,0 +1,246 @@
+HTML - Hypher Text Mark Up Language 
+It is not a programming language, it is a markup language 
+No Logic
+No calculation
+Decoration Website
+Mark Up language is a combination of Markup tags <html> </html>
+"html" tag or element are same things (predefined keywords of surrounded by angle brakets)
+Tags are thekeywords html language.
+
+<html> - Opening/Start up tag
+</html> - Closing/ End Tags
+/ - forward slash
+<tag1></tag2> -- Wrong statement
+<tag1></tag1> -- Right statement
+
+<html>
+All web pages content/code goes here    
+</html>
+.html extension is used for HTML files.
+<html>
+<head>
+Part 1 (Invisible Part)    
+</head>    
+<body>
+Part 2 Visible Part
+</body>
+</html>
+
+->> What goes into HEAD section
+<titile></titile>
+<link>
+<style></style>
+<script></script>
+<meta>
+<base>
+
+->> What goes into Body Section
+Rest everything goes here besides head tags.
+
+Title tags are use to give the title to your web page.
+Style -> to formating content of your web/html document.
+Formatting -> (Bold, Italic, Underline, Color Change, Size Change, etc)
+
+<link> - Has only open tag.
+</link> - Include close tag is wrong format
+<link/>- Closing Link tag
+We don't close link tags beacuse we are linking the file not the formatting.
+
+
+Metadata - Information about data
+<meta> </meta>  --XHTML
+<meta/>  -- HTML
+
+<meta name="keyword" content="......"/>
+<meta name="Description" content="....."/>
+<meta http-equiv="refresh" content="60"/>
+<meta http-equiv="content-type" content="text/html"; charset="UTF-8"/>
+
+<base> -- It is used to set a base condition for any tags or function
+
+<p> Paragraph Tag </p>
+<body>
+    <p> Your text goes here </p>
+</body>
+
+HTML document ignores white space
+<br/>  --Break row
+
+<pre>
+    Preformated word rapping
+</pre>
+
+<pre width="value"> </pre>  -- value= No. of words
+
+<hr>  --horizontal rule. To draw horizontal line.
+<hr width="50%">
+<hr width="200px">
+Width should be in % or px
+
+<hr width="value" color="name" align="name">
+
+<blockquote>  </blockquote>
+
+<q> Put the paragraph in double inverted comma's </q>
+
+<font> Text </font>
+
+<font size="value" color="name" face="fontname"> Text Comes Here </font>
+#hexadecimal Number  - Color
+#0000ff - Blue
+
+<b> Bold </b>
+
+<i> Italic </i>
+
+<u> Underline </u>
+
+<Strong> Strong </Strong>
+
+<em> Emphasize </em>
+
+<s> Strike through </s>
+
+<blink> Blink </blink>
+
+<big> Big Text</big>
+
+<tt> Monotype Font </tt>
+
+<abbr title="name"> Abbreviation </abbr>
+
+<sup> Super Script </sup>
+
+<sub> Sub Script </sub>
+
+<centre> Centre </centre>
+
+<small> Small </small>
+
+<bdo> Birection </bdo>
+
+Decimal Entity
+
+Mnemonic Entity
+
+List of unicode characters
+&nbsp;  -- non breaking space
+&#160;  -- In decimal form
+&copy  -- Copyright symbol
+&reg   -- Symbol Registered
+
+<ol> Ordered List </ol>
+<ul> Unordered List </ul>
+
+<li> List items </li>
+<ul type="square","circle","disc"></ul>
+<ol type="a","A","i","1"></ol>
+
+Nested list - list inside the List
+<dl> Definition List</dl>
+<dt> Definition Title</dt>
+<dd> Definition Detail/ Description </dd>
+
+<a href="path/addressoftargetdocumentorfile"></a>
+
+Link has two types
+1. Relative Link
+2. Absolute Link
+
+https://address 
+// www
+//  -- directory
+
+.co  .in. .com. .uk. -- Domain name
+
+ftps : Secure file transfer protocol
+https : hypertext transfer protocol Secure
+http : hypertext transfer protocol
+ftp : file transfer protocol
+smtp : simple mail transfer protocol
+telnet : terminal network
+
+target="_blank"
+target="_self"
+<a href="path/urlname" target="name" title="name"></a>
+
+<a href="path/urlname"> Descriptor </a>
+
+First Step - Give a name to topic
+<a name="topic1"></a>
+<a href="#topic1"></a>
+
+Attribute of Body Tag
+link
+alink  -- Active Link
+vlink -- Visited Link
+
+<body link="name/path"
+alink="colorname"
+vlink="colorname"
+>
+
+<img 
+src="path of your image"  ->> Source
+/. ->> Inside the folder
+<img src="path" height="value" width="value" border="value" alt="content">
+
+Cell, Row, Column, Header Cell, Body Cell, Caption, Header Row, Footer Row
+<table> </table>
+
+How to start table
+<table border="2"> </table>
+row --  <tr> </tr>
+cell --  <td> </td>
+<table align="left/rigth/centre" width="30%">
+
+<caption> Table Name </caption>
+<th> Table Heading </th>
+<thead> Header Row </thead>
+<tfoot> Footer Row </tfoot>
+<tbody> Body Row </tbody>
+
+bg color="colorname"
+cell spacing="value"
+cell padding="value"
+
+colspan="value"
+rowspan="value"
+
+Dropdown Menu
+<select name="----" id="------">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3 </option>
+</select>
+
+Form
+<form name="form" method="GET/POST">
+    All form details goes here
+</form>
+
+Note: Give same id and Name
+<input type="text" id="name" name="name" size="value" maxlength="value">
+
+<input type="password" name="pass">
+
+<textarea rows="value" cols="value"> </textarea>
+
+<input type="radio" name="r1" id="r1" value="Male" checked="checked">Male
+<input type="radio" name="r1" id="r1" value="Female" checked=" ">Female
+
+<input type="checkbox" name="ch1" id="ch1">
+<select name="month" id="month">
+    <option> Month </option>
+    <option> January </option>
+</select>
+
+<select name="h1" id="h1" multiple="multiple">
+    <optgroup lable ="name">
+        <option> 1 </option>
+        <option> 2 </option>
+        <option> 3 </option>
+    </optgroup>
+</select>
+
+<input type="file" size="30" accept="audio/image/video/*path">

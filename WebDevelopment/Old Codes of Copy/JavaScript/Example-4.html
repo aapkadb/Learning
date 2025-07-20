@@ -1,13 +1,22 @@
-<!-- Write a program input a value in run time and show the output dialog box-->
- <html>
-    <head>
-        <script language="javascript">
-            a=parseint(promt("Enter First Value : "));
-            var b=parseint(promt("Enter the Second Value : "));
-            c = a + b;
-            alert("Results : "+c);
- //           document.write("Sum of First + Second Value : "+c);
-// Alert is output dialog box.
-        </script>
-    </head>
- </html>
+<!-- input-sum.html -->
+<html>
+<head>
+    <title>Sum of Two Numbers</title>
+    <script type="text/javascript">
+        // Take input from user at runtime
+        var a = parseInt(prompt("Enter First Value: "));
+        var b = parseInt(prompt("Enter Second Value: "));
+
+        // Calculate the result
+        var c = a + b;
+
+        // Show result in alert dialog box
+        alert("Result: " + c);
+
+        // Optional: also write it to the page
+        // document.write("Sum of First and Second Value: " + c);
+    </script>
+</head>
+<body>
+</body>
+</html>

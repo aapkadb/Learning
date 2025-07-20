@@ -1,0 +1,44 @@
+div
+{
+    background-color:green;
+    width:60%;
+    height:6%;
+    border-radius:20px
+}
+#coolmenu >li
+{
+    float:left
+}
+#coolmenu ul
+{
+    list-style:none;
+    float:left
+}
+#coolmenu li a
+{
+    display:block;
+    height:2em;
+    line-height:2em;
+    padding:0 1.5em;
+    text-decoration:none
+}
+#coolmenu ul
+{
+    position:absolute;
+    display:none
+}
+#coolmenu ul li a
+{
+    width:50px
+}
+#coolmenu li:hover ul
+{
+    display:block
+}
+#coolmenu :hover
+{
+    background-color:aqua;
+    display:block;
+    border-radius:10px;
+    font-size:18px
+}

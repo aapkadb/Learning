@@ -366,6 +366,49 @@ Linking - In HTML we created a link with other page by anchor tag.
 
 We create three type of linking.
 
+1. Link in same pages
+
+2. Link in other pages
+<a href="image/output.docx"> Notes </a>
+<a href="marquee.html"> Marquee </a>
+
+3. Link with other Website
+<p align="right">
+    <a href="https://www.google.com"> Google </a>
+    <a href="https://www.youtube.com"> Youtube </a>
+</p>
+
+How to add google map in your system
+1. Open google Website.
+2. Type google map and search.
+3. Then Select first link of google map website, then click on get direction.
+4. Then type the location and search.
+5. The click on link option.
+6.Select second text box option, then perform copy-pasteto your html page.
+
+How to set multiple link in single image
+1. Open Dreamweaver.
+2. Select design view.
+3. Go to insert menu, click on image.
+4. Select image from drive.
+5. Insert alternate name of image tag.
+6. Select image, press ctrl+F2 (open insert tool bars).
+7. In insert tool bar, select common tab.
+8.Then select image, choose draw rectangle hotspot, then draw the rectangle on the image,
+then set link property.
+
+Frame - Frame tag use to set the multiple page in single browser.
+
+<frameset rows="30%,70%", cols="70%,10%,20%" >
+    <frame src="filename/urlname" />
+    <frame src="filename/urlname" />
+</frameset>
+
+Registration Form - It is a form that needed.
+
+For password
+username : <input type="text" name="u1"> <br>
+Password : <input type="password" name="pass1"> <br>
 
 CSS (Cascading Style Sheet) - It is used to provide a new effect on html controls it is a
 case sensitive
@@ -373,5 +416,67 @@ CSS has three types :
 1.  Inline CSS - This type CC code is directly written within a with style attribute in tag area
 <tagname style="width:1;"> </tagname>
 
-<p style="background-color: red;"
+<p style="background-color: red;"></p>
+
+2. Internal CSS - It always written in head area within style tag it is three type
+    a. BY tag Name
+        <style type="text/css" >
+        h1{
+            background-color:green;
+            color:white;
+        }
+       </style>
+
+    b. BY ID
+       <style type="text/css">
+            #mycolor
+            {background-color:green;
+                color:white
+            }
+       </style>
+       <h1 id="mycolor" > Text </h1>
+
+    c. By class
+       <style type="text/css">
+        .color
+        {
+            background-color:red;
+            color:white;
+            background-image:"path";
+        }
+       </style>
+
+Useing DIV tag - In HTML has many tag and their tag have perform some task such as tag 'b'
+used for bold, tag 'br' used for break line but in html some tag available those cannot
+perform any task but it is very useful with CSS programming.
+DIV tag is used to create formatting in HTML.
+
+How to add scroll in DIV tag
+#id 
+{
+    overflow:scroll;
+}
+
+Effect on Text
+<div id="text">
+    Div Paragraph
+</div>
+<style type="text/css">
+#text
+{
+    font-size:larger;
+    text-shadow:3fo 0.5px 1px 2px;
+}
+</style>
+
+How to make circle
+#circle
+{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+}
+
+3. External CSS
+<link rel="stylesheets" href="name.css">
 
